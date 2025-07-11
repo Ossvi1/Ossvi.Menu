@@ -1,24 +1,46 @@
-# OSSVI-MENU
+<h1 align="center">MENÚ OSSVI</h1>
+<p align="center">Menú Dinámico y Recursivo Hecho en Flask</p>
 
-Menú Dinámico y Recursivo Hecho en Flask
+<p align="center">
+  <img src="assets/ossvi-menu.gif" alt="Menú en acción">
+</p>
 
-![Menú en acción](assets/ossvi-menu.gif)
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/OSSVI--MENU-222222?style=for-the-badge"></a>
+</p>
 
-[![OSSVI-MENU](https://img.shields.io/badge/OSSVI--MENU-222222?style=for-the-badge)](#)
+<p align="center">
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  </a>
+  <a href="https://flask.palletsprojects.com/">
+    <img src="https://img.shields.io/badge/FLASK-000000?style=for-the-badge&logo=flask&logoColor=white">
+  </a>
+  <a href="https://getbootstrap.com/">
+    <img src="https://img.shields.io/badge/BOOTSTRAP-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
+  </a>
+</p>
 
-[![PYTHON](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![FLASK](https://img.shields.io/badge/FLASK-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
-[![BOOTSTRAP](https://img.shields.io/badge/BOOTSTRAP-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+<p align="center">
+  <img src="https://img.shields.io/badge/AUTHOR-OSWALDO%20MARTÍNEZ%20VIDAÑA-FFD700?style=for-the-badge">
+</p>
 
-[![AUTHOR](https://img.shields.io/badge/AUTHOR-OSWALDO%20MARTÍNEZ%20VIDAÑA-FFD700?style=for-the-badge)](#)
+<br>
 
----
+<p align="center">
+  <a href="https://www.instagram.com/ossvi_1.0/">
+    <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+  </a>
+  <a href="https://wa.me/5219221207843">
+    <img src="https://img.shields.io/badge/WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+  </a>
+  <a href="https://github.com/Ossvi1">
+    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
 
-[![INSTAGRAM](https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ossvi_1.0/)
-[![WHATSAPP](https://img.shields.io/badge/WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5219221207843)
-[![GITHUB](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ossvi1)
+<p align="center">Aquí te dejo mis redes sociales por si tienes alguna duda o necesitas ayuda con el proyecto 👆🏻</p>
 
-Aquí te dejo mis redes sociales por si tienes alguna duda o necesitas ayuda con el proyecto:
 ---
 
 ## 🚀 ¿Cómo instalar y ejecutar este proyecto?
@@ -55,6 +77,8 @@ Aquí te dejo mis redes sociales por si tienes alguna duda o necesitas ayuda con
 
 ---
 
-### 🎞️ Ejemplo del menú en funcionamiento
+<h3 align="center">🎞️ Ejemplo del menú en funcionamiento</h3>
 
-![Menú convertido desde video](assets/menu_converted.gif)
+<p align="center">
+  <img src="assets/menu_converted.gif" alt="Menú convertido desde video">
+</p>
