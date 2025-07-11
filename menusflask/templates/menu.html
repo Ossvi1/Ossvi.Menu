@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }} – UNIVERSIDAD MINATITLAN</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .dropdown-submenu {
+      position: relative;
+    }
+    .dropdown-submenu > .dropdown-menu {
+      top: 0;
+      left: 100%;
+      margin-top: -1px;
+    }
+  </style>
+
+  <style>
+    .navbar {
+      background-color: #111 !important;
+    }
+    .nav-link, .navbar-brand, .dropdown-item {
+      color: white !important;
+    }
+    .dropdown-menu {
+      background-color: #222;
+    }
+    .dropdown-item:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top px-4">
+    <a class="navbar-brand" href="/">UNIVERSIDAD MINATITLAN</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        {% macro render_menu(menu, nivel=0) %}
+          {% for label, item in menu.items() %}
+            {% if item is string %}
+              <li class="nav-item">
+                <a class="{{ 'nav-link' if nivel==0 else 'dropdown-item' }}" href="{{ item }}">{{ label }}</a>
+              </li>
+            {% else %}
+              <li class="nav-item dropdown {% if nivel>0 %}dropdown-submenu{% endif %}">
+                <a class="{{ 'nav-link' if nivel==0 else 'dropdown-item dropdown-toggle' }}"
+                   href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+                  {{ label }}
+                </a>
+                <ul class="dropdown-menu">
+                  {{ render_menu(item, nivel+1) }}
+                </ul>
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endmacro %}
+        {{ render_menu(menu) }}
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1>{{ title }}</h1>
+
+    {% if title == "Inicio" %}
+      <p>Bienvenido. Explora la oferta educativa con el menú.</p>
+    {% elif title == "Contacto" %}
+      <div class="card">
+        <div class="card-body">
+          <h5><i class="bi bi-envelope"></i> Contacto</h5>
+          <p><i class="bi bi-envelope me-2"></i>
+             <a href="mailto:oswaldomartinezvidana4@gmail.com">oswaldomartinezvidana4@gmail.com</a>
+          </p>
+          <p><i class="bi bi-telephone me-2"></i>
+             <a href="tel:+529221207843">922 120 7843</a>
+          </p>
+        </div>
+      </div>
+    {% else %}
+      <p>Estás en: <strong>{{ title }}</strong></p>
+    {% endif %}
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
