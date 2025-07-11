@@ -1,33 +1,60 @@
-
 # OSSVI-MENU
 
-Menú dinámico y recursivo hecho en Flask con Bootstrap.
+Menú Dinámico y Recursivo Hecho en Flask
 
-[![Python](https://img.shields.io/badge/PYTHON-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Autor](https://img.shields.io/badge/AUTOR-Oswaldo%20Martínez%20Vidaña-FFD700?style=for-the-badge)](#)
+![Menú en acción](assets/ossvi-menu.gif)
 
-## 🚀 ¿Cómo ejecutar?
-1. Clona el repositorio
-2. Instala las dependencias con:
+[![OSSVI-MENU](https://img.shields.io/badge/OSSVI--MENU-222222?style=for-the-badge)](#)
+
+[![PYTHON](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![FLASK](https://img.shields.io/badge/FLASK-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![BOOTSTRAP](https://img.shields.io/badge/BOOTSTRAP-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+
+[![AUTHOR](https://img.shields.io/badge/AUTHOR-OSWALDO%20MARTÍNEZ%20VIDAÑA-FFD700?style=for-the-badge)](#)
+
+---
+
+[![INSTAGRAM](https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ossvi_1.0/)
+[![WHATSAPP](https://img.shields.io/badge/WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5219221207843)
+[![GITHUB](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ossvi1)
+
+Aquí te dejo mis redes sociales por si tienes alguna duda o necesitas ayuda con el proyecto:
+---
+
+## 🚀 ¿Cómo instalar y ejecutar este proyecto?
+
+1. **Clona el repositorio**
+   ```bash
+   git clone https://github.com/tu_usuario/ossvi-menu.git
+   cd ossvi-menu
+   ```
+
+2. **Crea y activa un entorno virtual (opcional pero recomendado)**
+   ```bash
+   python -m venv .venv
+   ```
+
+   - En Windows:
+     ```bash
+     .venv\Scripts\activate
+     ```
+   - En Mac/Linux:
+     ```bash
+     source .venv/bin/activate
+     ```
+
+3. **Instala las dependencias**
    ```bash
    pip install -r requirements.txt
    ```
-3. Ejecuta la app:
+
+4. **Ejecuta la app**
    ```bash
    python menusflask/main.py
    ```
 
-## 📫 Contacto
-- 📧 oswaldomartinezvidana4@gmail.com  
-- 📞 9221207843  
-- 📱 [Instagram](https://www.instagram.com/ossvi_1.0/)  
-- 💬 [WhatsApp](https://wa.me/5219221207843)
+---
 
-## 🌐 Redes Sociales
+### 🎞️ Ejemplo del menú en funcionamiento
 
-[![Instagram](https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ossvi_1.0/)
-[![WhatsApp](https://img.shields.io/badge/WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5219221207843)
-
-## 🎬 Te debería quedar así:
-
-[![Ver ejemplo](assets/ossvi-menu.gif)](assets/Menu.mp4)
+![Menú convertido desde video](assets/menu_converted.gif)
