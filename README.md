@@ -2,6 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com/?font=Poppins&size=40&pause=1000&color=FF008C&center=true&vCenter=true&width=435&lines=Menu+ossvi">
 </p>
 ---
+---
 <p align="center">Menú Dinámico y Recursivo Hecho en Flask</p>
 
 <p align="center">
